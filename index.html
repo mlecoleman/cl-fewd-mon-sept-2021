@@ -23,10 +23,35 @@
     </header>
 
     <form name="Saw-Whet Calculator">
-        <label> Species <span>(required)</span><input type="text" name="species"required></label> 
-        <label> Thickness <span>(required)</span><input type="number" name="thickness" required></label>
-        <label> Width <span>(required)</span><input type="number" name="width" required></label>
-        <label> Length <span>(required)</span><input type="number" name="length" required></label>
+        <label> Species 
+            <select>
+                <option>Please Select</option>
+                <option value="ash">Ash</option>
+                <option value="beech">Beech</option>
+                <option value="bloc">Black Locust</option>
+                <option value="cedar">Cedat</option>
+                <option value="cherry">Cherry</option>
+                <option value="elm">Elm</option>
+                <option value="gum">Gum</option>
+                <option value="hberry">Hackberry</option>
+                <option value="hickory">Hickory</option>
+                <option value="hloc">Honey Locust</option>
+                <option value="maple">Maple</option>
+                <option value="oorange">Osage Orange</option>
+                <option value="oak">Oak</option>
+                <option value="paul">Paulownia</option>
+                <option value="persimmon">Persimmon</option>
+                <option value="pine">Pine</option>
+                <option value="poplar">Poplar</option>
+                <option value="sass">Sassafrass</option>
+                <option value="wycamore">Sycamore</option>
+                <option value="walnut">Walnut</option>
+
+            </select>
+        </label> 
+        <label> Thickness <input type="number" name="thickness" required></label>
+        <label> Width <input type="number" name="width" required></label>
+        <label> Length <input type="number" name="length" required></label>
         <input type="submit" value="Calculate Cost" class="button">
     </form>
 
