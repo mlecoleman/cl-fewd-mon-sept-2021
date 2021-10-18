@@ -1,23 +1,38 @@
 /* line 1, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+* {
+  font-family: Roboto, sans-serif; }
+
+/* line 6, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 #logo {
   position: absolute;
   right: 0px;
   width: 30%;
   padding-top: 5px; }
 
-/* line 8, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 13, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 h1 {
-  font-family: Roboto, sans-serif;
   font-size: 1.7rem;
   display: inline-block;
   padding: 15px; }
 
-/* line 15, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 19, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 form {
-  font-family: Roboto, sans-serif;
-  padding: 15px; }
-  /* line 18, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+  padding: 15px;
+  max-width: 25rem; }
+  /* line 22, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
   form label {
+    display: block;
     padding: .75rem 0; }
+    /* line 25, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+    form label span {
+      font-size: .75 rem; }
+    /* line 28, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+    form label input {
+      display: block;
+      font-size: 1rem;
+      padding: .75rem;
+      background-color: #F6F6F6;
+      border: 1px solid #bbb;
+      margin-top: .2rem; }
 
 /*# sourceMappingURL=small.css.map */
