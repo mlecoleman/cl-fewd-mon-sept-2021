@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "small.css",
+	"sources": [
+		"../scss/small.scss"
+	],
+	"sourcesContent": [
+		"#logo {\n  position: absolute;\n  right: 0px;\n  width: 30%;\n  padding-top: 5px;\n}\n\nh1 {\n    font-family: Roboto, sans-serif;\n    font-size: 1.7rem;\n    display: inline-block;\n    padding: 15px;\n}\n\nform {\n    font-family: Roboto, sans-serif;\n    padding: 15px;\n    label {\n        padding: .75rem 0;\n    }\n}\n\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,KAAK,CAAC;EACJ,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,GAAG,GACjB;;;AAED,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,kBAAkB;EAC/B,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,IAAI,GAChB;;;AAED,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,kBAAkB;EAC/B,OAAO,EAAE,IAAI,GAIhB;;EAND,AAGI,IAHA,CAGA,KAAK,CAAC;IACF,OAAO,EAAE,QAAQ,GACpB"
+}

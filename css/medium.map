@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "medium.css",
+	"sources": [
+		"../scss/medium.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

@@ -4,16 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="css/normalize.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
 
     <title>Saw-Whet Calculator</title>
 </head>
 <body>
-    <img class="logo" src="logo.png" alt="Saw-Whet Hardwoods Logo">
+    <header>
+        <h1>Saw-Whet Calculator</h1>
+        <img id="logo" src="logo.png" alt="Saw-Whet Hardwoods Logo">
+    </header>
 
-    
+    <form name="Saw-Whet Calculator">
+        <label for="species">Species:</label><br>
+        <input type="text" id="species" name="species"><br>
+
+        <label for="thickness">Thickness:</label><br>
+        <input type="text" id="thickness" name="thickness"><br>
+
+        <label for="width">Width:</label><br>
+        <input type="text" id="width" name="width"><br>
+
+        <label for="length">Length:</label><br>
+        <input type="text" id="length" name="length"><br>
+
+        <input type="submit" value="Calculate Cost" id="button">
+    </form>
+
     
 </body>
 </html>

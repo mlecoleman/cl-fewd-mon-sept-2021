@@ -1,11 +1,23 @@
-.logo {
+/* line 1, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+#logo {
   position: absolute;
   right: 0px;
   width: 30%;
-  padding-top: 5px;
-}
+  padding-top: 5px; }
 
+/* line 8, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.7rem;
+  display: inline-block;
+  padding: 15px; }
 
+/* line 15, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+form {
+  font-family: Roboto, sans-serif;
+  padding: 15px; }
+  /* line 18, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+  form label {
+    padding: .75rem 0; }
 
-
-
+/*# sourceMappingURL=small.css.map */
