@@ -2,6 +2,9 @@
     font-family: Roboto, sans-serif;
 }
 
+header {
+    background-color: rgb(241, 124, 28);
+}
 
 #logo {
   position: absolute;
@@ -25,16 +28,20 @@ form {
         span {
             font-size: .75 rem;
         }
-        input {
+        
+        input, select {
             display: block;
             font-size: 1rem;
             padding: .75rem;
             background-color: #F6F6F6;
             border: 1px solid #bbb;
             margin-top: .2rem;
+            border-radius: .2rem;
         }
     }
+
     .button {
+        margin-top: 1rem;
         padding: .4rem 1rem;
         border-radius: 1rem;
         -webkit-appearance: none;
