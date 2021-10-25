@@ -1,36 +1,36 @@
-/* line 1, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 1, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 * {
   font-family: Roboto, sans-serif; }
 
-/* line 5, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 5, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 header {
-  background-color: #f17c1c; }
+  background-color: #f17c1c;
+  display: flex;
+  justify-content: space-between; }
 
-/* line 9, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
-#logo {
-  position: absolute;
-  right: 0px;
-  width: 30%;
-  padding-top: 5px; }
+/* line 11, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+.logo {
+  max-height: 5rem;
+  padding: .5rem; }
 
-/* line 16, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 16, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 h1 {
   font-size: 1.7rem;
   display: inline-block;
   padding: 15px; }
 
-/* line 22, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 22, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 form {
   padding: 15px;
   max-width: 25rem; }
-  /* line 25, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+  /* line 25, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
   form label {
     display: block;
     padding: .75rem 0; }
-    /* line 28, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+    /* line 28, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
     form label span {
       font-size: .75 rem; }
-    /* line 32, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+    /* line 32, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
     form label input, form label select {
       display: block;
       font-size: 1rem;
@@ -39,11 +39,12 @@ form {
       border: 1px solid #bbb;
       margin-top: .2rem;
       border-radius: .2rem; }
-  /* line 43, ../../../../../../../../../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+  /* line 43, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
   form .button {
     margin-top: 1rem;
     padding: .4rem 1rem;
-    border-radius: 1rem;
+    border-radius: 20px;
+    background-color: #f17c1c;
     -webkit-appearance: none;
     -moz-appearance: none; }
 

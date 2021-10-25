@@ -4,13 +4,13 @@
 
 header {
     background-color: rgb(241, 124, 28);
+    display: flex;
+    justify-content: space-between;
 }
 
-#logo {
-  position: absolute;
-  right: 0px;
-  width: 30%;
-  padding-top: 5px;
+.logo {
+  max-height: 5rem;
+  padding: .5rem;
 }
 
 h1 {
@@ -43,7 +43,8 @@ form {
     .button {
         margin-top: 1rem;
         padding: .4rem 1rem;
-        border-radius: 1rem;
+        border-radius: 20px;
+        background-color: rgb(241, 124, 28);
         -webkit-appearance: none;
         -moz-appearance: none;
     }
