@@ -5,8 +5,8 @@
 		"../scss/large.scss"
 	],
 	"sourcesContent": [
-		"@media only screen and (min-width: 1024px) {\n\n\n\n\n\n\n\n} /* end of media query */"
+		"@media only screen and (min-width: 1024px) {\n\n    nav ul { margin-left: 1.5vw; }\n    nav li { width: auto; }\n    nav a {padding: .7rem 1rem; }\n\n\n\n\n\n\n} /* end of media query */"
 	],
 	"names": [],
-	"mappings": "AAQE,wBAAwB"
+	"mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;;EAErC,AAAA,GAAG,CAAC,EAAE,CAAC;IAAE,WAAW,EAAE,KAAK,GAAI;;EAC/B,AAAA,GAAG,CAAC,EAAE,CAAC;IAAE,KAAK,EAAE,IAAI,GAAI;;EACxB,AAAA,GAAG,CAAC,CAAC,CAAC;IAAC,OAAO,EAAE,UAAU,GAAI;;AAOhC,wBAAwB"
 }
