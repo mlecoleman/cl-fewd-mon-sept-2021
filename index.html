@@ -24,6 +24,17 @@
         <img class="logo" src="./images/logo.png" alt="Saw-Whet Hardwoods Logo">
     </header>
 
+    <nav class="clearfix">
+        <div class="row limited">
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li class="active"> <a href="#">Price Sheet</a></li>
+                <li> <a href="#">Saw-Whet Website</a></li>
+                <li> <a href="#">Update Price Sheet</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <form name="Saw-Whet Calculator">
         <label class="species"> Species 
             <select required>
@@ -51,10 +62,10 @@
 
             </select>
         </label> 
-        <label> Thickness <input type="number" name="thickness" id="thickness" required></label>
-        <label> Width <input type="number" name="width" id="width" required></label>
-        <label> Length <input type="number" name="length" id="length" required></label>
-        <input type="submit" value="Calculate" class="button" id="calculate">
+        <label> Thickness <input name="thickness" type="number" id="thickness" required></label>
+        <label> Width <input name="width" type="number" id="width" required></label>
+        <label> Length <input name="length" type="number" id="length" required></label>
+        <input name="calculate" type="submit" value="Calculate" class="button" id="calculate">
     </form>
 
     <script src="./script.js"></script>

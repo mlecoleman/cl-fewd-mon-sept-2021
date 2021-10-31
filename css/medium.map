@@ -5,8 +5,8 @@
 		"../scss/medium.scss"
 	],
 	"sourcesContent": [
-		""
+		"@media only screen and (min-width: 768px) {\n\n\n\n\n\n\n\n} /* end of media query */"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAQE,wBAAwB"
 }

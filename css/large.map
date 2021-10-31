@@ -5,8 +5,8 @@
 		"../scss/large.scss"
 	],
 	"sourcesContent": [
-		""
+		"@media only screen and (min-width: 1024px) {\n\n\n\n\n\n\n\n} /* end of media query */"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAQE,wBAAwB"
 }
