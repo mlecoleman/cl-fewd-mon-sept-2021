@@ -50,7 +50,7 @@ nav ul.open { display: block; }
 
 nav ul { display: none; }
 form {
-    padding: .8rem; 
+    margin: .8rem; 
     max-width: 25rem;
     label {
         display: block;
@@ -79,6 +79,12 @@ form {
         -moz-appearance: none;
     }
 }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 

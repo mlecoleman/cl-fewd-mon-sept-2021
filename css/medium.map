@@ -5,8 +5,8 @@
 		"../scss/medium.scss"
 	],
 	"sourcesContent": [
-		"@media only screen and (min-width: 768px) {\n\n\n\n\n\n\n\n} /* end of media query */"
+		"@media only screen and (min-width: 768px) {\n    nav button { display: none; }\n    nav ul { display: block }\n    nav li { width: 33%; float: left;}\n    form { margin: 5rem 1rem; }\n\n\n\n\n\n\n} /* end of media query */"
 	],
 	"names": [],
-	"mappings": "AAQE,wBAAwB"
+	"mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;;EACpC,AAAA,GAAG,CAAC,MAAM,CAAC;IAAE,OAAO,EAAE,IAAI,GAAI;;EAC9B,AAAA,GAAG,CAAC,EAAE,CAAC;IAAE,OAAO,EAAE,KAAM,GAAE;;EAC1B,AAAA,GAAG,CAAC,EAAE,CAAC;IAAE,KAAK,EAAE,GAAG;IAAE,KAAK,EAAE,IAAI,GAAG;;EACnC,AAAA,IAAI,CAAC;IAAE,MAAM,EAAE,SAAS,GAAI;;AAO9B,wBAAwB"
 }

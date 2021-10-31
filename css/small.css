@@ -67,7 +67,7 @@ nav ul {
 
 /* line 52, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 form {
-  padding: .8rem;
+  margin: .8rem;
   max-width: 25rem; }
   /* line 55, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
   form label {
@@ -93,5 +93,11 @@ form {
     background-color: #f17c1c;
     -webkit-appearance: none;
     -moz-appearance: none; }
+
+/* line 83, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /*# sourceMappingURL=small.css.map */

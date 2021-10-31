@@ -1,3 +1,18 @@
+@media only screen and (min-width: 768px) {
+  /* line 2, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/medium.scss */
+  nav button {
+    display: none; }
+  /* line 3, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/medium.scss */
+  nav ul {
+    display: block; }
+  /* line 4, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/medium.scss */
+  nav li {
+    width: 33%;
+    float: left; }
+  /* line 5, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/medium.scss */
+  form {
+    margin: 5rem 1rem; } }
+
 /* end of media query */
 
 /*# sourceMappingURL=medium.css.map */
