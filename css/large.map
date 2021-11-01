@@ -5,8 +5,8 @@
 		"../scss/large.scss"
 	],
 	"sourcesContent": [
-		"@media only screen and (min-width: 1024px) {\n\n    nav ul { margin-left: 1.5vw; }\n    nav li { width: auto; }\n    nav a {padding: .7rem 1rem; }\n\n\n\n\n\n\n} /* end of media query */"
+		"@media only screen and (min-width: 1024px) {\n\n    nav ul { margin-left: 1.5vw; }\n    nav li { width: auto; }\n    nav a {padding: .7rem 1rem; }\n    form { margin: 2rem 1rem; }\n    .logo {\n        max-height: 7rem;\n        padding: .5rem;\n      }\n      header {\n        background-color: rgb(241, 124, 28);\n        display: flex;\n        justify-content: space-between;\n    }\n    h1 {\n        margin: auto .2rem;\n    }\n\n\n\n\n\n\n} /* end of media query */"
 	],
 	"names": [],
-	"mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;;EAErC,AAAA,GAAG,CAAC,EAAE,CAAC;IAAE,WAAW,EAAE,KAAK,GAAI;;EAC/B,AAAA,GAAG,CAAC,EAAE,CAAC;IAAE,KAAK,EAAE,IAAI,GAAI;;EACxB,AAAA,GAAG,CAAC,CAAC,CAAC;IAAC,OAAO,EAAE,UAAU,GAAI;;AAOhC,wBAAwB"
+	"mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;;EAErC,AAAA,GAAG,CAAC,EAAE,CAAC;IAAE,WAAW,EAAE,KAAK,GAAI;;EAC/B,AAAA,GAAG,CAAC,EAAE,CAAC;IAAE,KAAK,EAAE,IAAI,GAAI;;EACxB,AAAA,GAAG,CAAC,CAAC,CAAC;IAAC,OAAO,EAAE,UAAU,GAAI;;EAC9B,AAAA,IAAI,CAAC;IAAE,MAAM,EAAE,SAAS,GAAI;;EAC5B,AAAA,KAAK,CAAC;IACF,UAAU,EAAE,IAAI;IAChB,OAAO,EAAE,KAAK,GACf;;EACD,AAAA,MAAM,CAAC;IACL,gBAAgB,EAAE,OAAiB;IACnC,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,aAAa,GACjC;;EACD,AAAA,EAAE,CAAC;IACC,MAAM,EAAE,UAAU,GACrB;;AAOH,wBAAwB"
 }

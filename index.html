@@ -16,11 +16,11 @@
     <link href="./css/medium.css" rel="stylesheet">
     <link href="./css/large.css" rel="stylesheet">
 
-    <title>Saw-Whet Calculator</title>
+    <title>Board Foot Calculator</title>
 </head>
 <body>
     <header>
-        <h1>Saw-Whet Calculator</h1>
+        <h1>Board Foot Calculator</h1>
         <img class="logo" src="./images/logo.png" alt="Saw-Whet Hardwoods Logo">
     </header>
 
@@ -35,7 +35,7 @@
         </div>
     </nav>
 
-    <form name="Saw-Whet Calculator">
+    <form name="Calculator">
         <label class="species"> Species 
             <select required>
                 <option>Please Select</option>
@@ -59,12 +59,11 @@
                 <option value="sass">Sassafrass</option>
                 <option value="syc">Sycamore</option>
                 <option value="walnut">Walnut</option>
-
             </select>
         </label> 
-        <label> Thickness <input name="thickness" type="number" id="thickness" required></label>
-        <label> Width <input name="width" type="number" id="width" required></label>
-        <label> Length <input name="length" type="number" id="length" required></label>
+        <label>Thickness in Inches<input name="thickness" type="number" id="thickness" required></label>
+        <label>Width in Inches<input name="width" type="number" id="width" required></label>
+        <label>Length in Inches<input name="length" type="number" id="length" required></label>
         <input name="calculate" type="submit" value="Calculate" class="button" id="calculate">
     </form>
 

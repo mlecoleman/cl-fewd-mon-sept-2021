@@ -3,6 +3,19 @@
     nav ul { margin-left: 1.5vw; }
     nav li { width: auto; }
     nav a {padding: .7rem 1rem; }
+    form { margin: 2rem 1rem; }
+    .logo {
+        max-height: 7rem;
+        padding: .5rem;
+      }
+      header {
+        background-color: rgb(241, 124, 28);
+        display: flex;
+        justify-content: space-between;
+    }
+    h1 {
+        margin: auto .2rem;
+    }
 
 
 

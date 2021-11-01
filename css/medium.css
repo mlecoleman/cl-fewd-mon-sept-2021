@@ -11,7 +11,11 @@
     float: left; }
   /* line 5, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/medium.scss */
   form {
-    margin: 5rem 1rem; } }
+    margin: 2rem 1rem; }
+  /* line 6, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/medium.scss */
+  .logo {
+    max-height: 6rem;
+    padding: .5rem; } }
 
 /* end of media query */
 

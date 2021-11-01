@@ -2,8 +2,11 @@
     nav button { display: none; }
     nav ul { display: block }
     nav li { width: 33%; float: left;}
-    form { margin: 5rem 1rem; }
-
+    form { margin: 2rem 1rem; }
+    .logo {
+        max-height: 6rem;
+        padding: .5rem;
+      }
 
 
 

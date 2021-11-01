@@ -7,7 +7,22 @@
     width: auto; }
   /* line 5, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/large.scss */
   nav a {
-    padding: .7rem 1rem; } }
+    padding: .7rem 1rem; }
+  /* line 6, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/large.scss */
+  form {
+    margin: 2rem 1rem; }
+  /* line 7, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/large.scss */
+  .logo {
+    max-height: 7rem;
+    padding: .5rem; }
+  /* line 11, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/large.scss */
+  header {
+    background-color: #f17c1c;
+    display: flex;
+    justify-content: space-between; }
+  /* line 16, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/large.scss */
+  h1 {
+    margin: auto .2rem; } }
 
 /* end of media query */
 
