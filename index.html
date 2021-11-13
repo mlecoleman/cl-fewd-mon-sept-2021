@@ -37,7 +37,7 @@
 
     <form name="Calculator">
         <label class="species"> Species 
-            <select required>
+            <select id="chooseSpecies">
                 <option>Please Select</option>
                 <option value="ash">Ash</option>
                 <option value="bee">Beech</option>
@@ -65,7 +65,7 @@
         <label>Thickness in Inches<input name="thickness" type="number" id="thickness" required></label>
         <label>Width in Inches<input name="width" type="number" id="width" required></label>
         <label>Length in Inches<input name="length" type="number" id="length" required></label>
-        <input name="calculate" onclick="boardfeet()" type="submit" value="Calculate" class="button" id="calculate">
+        <input name="calculate" type="submit" value="Calculate" class="button" id="calculate">
     </form>
     <div id="output"></div>
 
