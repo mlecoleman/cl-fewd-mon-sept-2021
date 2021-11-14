@@ -20,6 +20,11 @@ h1 {
   padding: 15px; }
 
 /* line 22, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+h1 a {
+  text-decoration: none;
+  color: black; }
+
+/* line 27, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 button#hamburgerBtn {
   background: none;
   border: none;
@@ -28,20 +33,20 @@ button#hamburgerBtn {
   cursor: pointer;
   padding: 0 30px 0 2vw; }
 
-/* line 31, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 36, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 nav {
   background-color: #F6F6F6; }
 
-/* line 33, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 38, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 nav ul {
   margin: 0;
   padding: 0; }
 
-/* line 35, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 40, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 nav li {
   list-style-type: none; }
 
-/* line 37, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 42, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 nav a {
   display: block;
   padding: .8rem .8rem;
@@ -49,30 +54,30 @@ nav a {
   text-align: left;
   text-decoration: none; }
 
-/* line 45, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 50, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 nav a:hover {
   background-color: #bbb; }
 
-/* line 47, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 52, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 nav ul.open {
   display: block; }
 
-/* line 49, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 54, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 nav ul {
   display: none; }
 
-/* line 50, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 55, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 form {
   margin: .8rem;
   max-width: 25rem; }
-  /* line 53, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+  /* line 58, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
   form label {
     display: block;
     padding: .75rem 0; }
-    /* line 56, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+    /* line 61, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
     form label span {
       font-size: .75 rem; }
-    /* line 60, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+    /* line 65, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
     form label input, form label select {
       display: block;
       font-size: 1rem;
@@ -81,7 +86,7 @@ form {
       border: 1px solid #bbb;
       margin-top: .2rem;
       border-radius: .2rem; }
-  /* line 71, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+  /* line 76, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
   form .button {
     margin-top: 1rem;
     padding: .4rem 1rem;
@@ -90,7 +95,11 @@ form {
     -webkit-appearance: none;
     -moz-appearance: none; }
 
-/* line 81, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 86, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+.pricesheet {
+  padding: .4rem; }
+
+/* line 90, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 .clearfix:after {
   content: "";
   display: table;
