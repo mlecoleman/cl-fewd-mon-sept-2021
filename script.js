@@ -45,7 +45,7 @@ function calculateBoardfeet() {
 
     boardfeet = (thickness * width * length) / 144;
 
-    totalBoardfeet.textContent = boardfeet.toFixed(2)
+    totalBoardfeet.textContent = boardfeet.toFixed(2);
 
 }
 
@@ -54,7 +54,7 @@ function calculate () {
     if(Number(thicknessInput.value) && Number(widthInput.value) && Number(lengthInput.value)) {
         calculateBoardfeet()
     } else {
-        alert('Please fill in all fields with a numerical value.')
+        alert('Please fill in all fields with a numerical value.');
     }
 }
 
