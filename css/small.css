@@ -96,10 +96,17 @@ form {
     -moz-appearance: none; }
 
 /* line 86, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+#output {
+  display: block;
+  font-size: 1rem;
+  padding-left: .75rem;
+  font-style: italic; }
+
+/* line 93, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 .pricesheet {
   padding: .4rem; }
 
-/* line 90, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
+/* line 97, ../../../../../Users/emily/Desktop/projects/cl-fewd-mon-sept-2021/scss/small.scss */
 .clearfix:after {
   content: "";
   display: table;

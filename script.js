@@ -1,20 +1,4 @@
 
-let thickness = 0;
-let width = 0;
-let length = 0;
-
-let calculatebutton = document.querySelector ("#calculate");
-
-calculatebutton.addEventListener ("click",(e)=>{
-    e.preventDefault ();
-    thickness=document.querySelector ("#thickness").value;
-    width=document.querySelector ("#width").value;
-    length=document.querySelector ("#length").value;
-
- 
-     
-})
-
 /* Code Ernesto helped me write in CL Monday class
 let thickness = 0;
 let width = 0;
@@ -33,20 +17,18 @@ calculatebutton.addEventListener ("click",(e)=>{
 */
 
 // input
-const thicknessInput = document.querySelector('#thickness');
-const widthInput = document.querySelector('#width');
-const lengthInput = document.querySelector('#length');
-const calculateButton = document.querySelector('#calculate');
+const thicknessInput = document.getElementById('thickness');
+const widthInput = document.getElementById('width');
+const lengthInput = document.getElementById('length');
 
-calculatebutton.addEventListener ("click",(e)=>{
-    e.preventDefault ()
-})
+// button
+const calculateButton = document.getElementById('calculate');
 
 // output
 
-let output = document.getElementById('output');
+const totalBoardfeet = document.getElementById('bfoutput');
 
-function boardfeetOutput() {
+function calculateBoardfeet() {
 
     let thickness, width, length, boardfeet;
 
@@ -56,13 +38,14 @@ function boardfeetOutput() {
 
     boardfeet = (thickness * width * length) / 144;
 
-    calculateButton.textContent = boardfeet.toFixed(2);
+    totalBoardfeet.textContent = boardfeet.toFixed(2);
 
 }
 
+
 function calculate () {
     if(Number(thicknessInput.value) && Number(widthInput.value) && Number(lengthInput.value)) {
-        boardfeetOutput ()
+        calculateBoardfeet ()
     } else {
         alert('Please fill in all fields with a numerical value.')
     }
