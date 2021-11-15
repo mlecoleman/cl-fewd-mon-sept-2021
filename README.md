@@ -6,9 +6,9 @@ Required Features:
 
 1. CSS feature: I have a navigation bar that expands and collapses for different screens. 
 
-2. JavaScript feature: Attempting to use JavaScript to calculate boardfootage and display it in my html.
+2. JavaScript feature: Use JavaScript to calculate boardfootage and display it in my html.
 
-3. 
+3. JavaScript feature: Alert pop-up if anything other than a number is entered into thickness, width, or length fields.
 
 Special Instructions - I used the app Scout to compile my css if that makes any difference when reviewing my project.
 

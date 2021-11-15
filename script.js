@@ -1,4 +1,11 @@
 
+// hamburger button
+function toggleMenu () {
+    document.getElementById("primaryNav").classList.toggle("open");
+}
+let x = document.getElementById('hamburgerBtn');
+x.onclick = toggleMenu;
+
 /* Code Ernesto helped me write in CL Monday class
 let thickness = 0;
 let width = 0;
@@ -38,28 +45,17 @@ function calculateBoardfeet() {
 
     boardfeet = (thickness * width * length) / 144;
 
-    totalBoardfeet.textContent = boardfeet.toFixed(2);
+    totalBoardfeet.textContent = boardfeet.toFixed(2)
 
 }
 
 
 function calculate () {
     if(Number(thicknessInput.value) && Number(widthInput.value) && Number(lengthInput.value)) {
-        calculateBoardfeet ()
+        calculateBoardfeet()
     } else {
         alert('Please fill in all fields with a numerical value.')
     }
 }
 
 calculateButton.addEventListener('click', calculate);
-
-
-
-// hamburger button
-function toggleMenu () {
-    document.getElementById("primaryNav").classList.toggle("open");
-}
-let x = document.getElementById('hamburgerBtn');
-x.onclick = toggleMenu;
- 
-
